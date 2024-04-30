@@ -2,7 +2,7 @@
 import Navbar from '@/components/navbar'
 import Sidebar from '@/components/sidebar'
 import { Metadata } from 'next';
-import React from 'react'
+import React, { ReactNode } from 'react'
 
 export const metadata: Metadata = {
     title: "Zoom",
